@@ -15,9 +15,9 @@ export const Hero = () => {
         </h2>
         <h3 className="text-3xl font-caption">FullStack Developer</h3>
         <p className="text-base">
-          I'm currently a second-year web development student. I'm looking for a
-          work-study position for next fall. I was able to realize that you can
-          find directly on my{" "}
+          I{"'"}m currently a second-year web development student. I{"'"}m
+          looking for a work-study position for next fall. I was able to realize
+          that you can find directly on my{" "}
           <Link href="https://github.com/rafael-rob">
             <Code className="inline-flex items-center gap-1">
               <GithubIcon size={16} className="inline" />
