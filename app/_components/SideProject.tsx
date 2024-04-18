@@ -6,25 +6,25 @@ export const SIDE_PROJETCS: SideProjectProps[] = [
     Logo: Code,
     title: "Porfolio",
     description: "This website",
-    url: "/",
+    url: "https://github.com/rafael-rob/portfolio",
   },
   {
     Logo: Brain,
     title: "IA",
-    description: "IA pour lecture assisté de recruteur",
+    description: "AI for assisted recruiter reading",
     url: "https://github.com/rafael-rob/IApython",
   },
   {
     Logo: NotebookPen,
     title: "Hubskills",
-    description: "application webd'évaluation de compétences",
+    description: "Web application for skills assessment",
     url: "https://github.com/rafael-rob/hubskills",
   },
   {
     Logo: SprayCan,
     title: "ChapelotteCoiffure",
     description: "in production...",
-    url: "/maisonchapelotte",
+    url: "https://github.com/rafael-rob/MaisonChapelotte",
   },
 ];
 export type SideProjectProps = {
