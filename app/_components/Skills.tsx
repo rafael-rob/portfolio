@@ -3,7 +3,6 @@ import { LaravelLogo } from "./icons/LaravelLogo";
 import { Code } from "./Code";
 import { VueLogo } from "./icons/ReactLogo";
 import { ReactLogo } from "./icons/VueLogo";
-import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 
 export const Skills = () => {

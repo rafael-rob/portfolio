@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
-import { Home, Notebook } from "lucide-react";
 import Link from "next/link";
 import { SIDE_PROJETCS, SideProjectProps } from "./SideProject";
 import { ContactCard } from "./ContactCard";
@@ -25,6 +24,15 @@ export const Status = () => {
             ))}
           </div>
         </Card>
+        <div className="flex justify-center mt-4">
+          {" "}
+          <Link
+            href="/components/csv/Tableau de synthese.xlsx"
+            className="py-2 px-4 bg-accent text-accent-foreground font-semibold rounded hover:bg-accent-hover transition-colors"
+          >
+            Check my skills
+          </Link>
+        </div>
       </div>
       <div className="flex-[2] w-full flex flex-col gap-4">
         <Card className="p-4 flex-1">

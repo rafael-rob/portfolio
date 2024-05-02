@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { ComponentPropsWithoutRef } from "react";
 import { Section } from "./Section";
-import { cn } from "@/lib/utils";
 import { Code } from "./Code";
 import Link from "next/link";
 import { GithubIcon } from "./icons/GithubIcon";
