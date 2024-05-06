@@ -12,12 +12,10 @@ export const Veille = () => {
       <div className="flex max-md:flex-col gap-4">
         <div className="flex flex-col gap-4 flex-1">
           <p className="text-sm text-muted-foreground">
-            Cybersecurity is very important in IT, staying up to date with the
-            latest vulnerabilities and attacks is essential to avoid attacks and
-            vulnerabilities in the vulnerabilities in the applications and sites
-            we develop. I therefore maintain an active technology watch by
-            regularly checking the latest news on the subject, and consulting
-            sources of information such as
+            Cybersecurity is vital in IT. Staying updated on the newest
+            vulnerabilities and threats is essential to protect the applications
+            and websites we develop. Therefore, I maintain an active technology
+            watch by regularly monitoring sources such as
             <Code>Kaspersky Lab Threatpost</Code>,<Code>The Hacker News</Code>
             and <Code>Schneier on Security</Code>.
           </p>
