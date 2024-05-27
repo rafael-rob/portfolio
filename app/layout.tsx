@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Anek_Telugu } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const AnekTelugu = Anek_Telugu({
   subsets: ["latin"],
