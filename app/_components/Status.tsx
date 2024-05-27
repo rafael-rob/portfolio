@@ -25,9 +25,8 @@ export const Status = () => {
           </div>
         </Card>
         <div className="flex justify-center mt-4">
-          {" "}
           <Link
-            href="/components/csv/Tableau de synthese.xlsx"
+            href="/files/Tableau de synthese.xlsx"
             className="py-2 px-4 bg-accent text-accent-foreground font-semibold rounded hover:bg-accent-hover transition-colors"
           >
             Check my skills

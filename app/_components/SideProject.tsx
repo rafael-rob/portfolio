@@ -23,10 +23,11 @@ export const SIDE_PROJETCS: SideProjectProps[] = [
   {
     Logo: SprayCan,
     title: "ChapelotteCoiffure",
-    description: "in production...",
+    description: "in progress...",
     url: "https://github.com/rafael-rob/MaisonChapelotte",
   },
 ];
+
 export type SideProjectProps = {
   Logo: LucideIcon;
   title: string;
@@ -36,17 +37,22 @@ export type SideProjectProps = {
 
 const SideProject = (props: SideProjectProps) => {
   return (
-    <Link
-      href={props.url}
-      className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded"
-    >
-      <span className="bg-accent text-accent-foreground p-3 rounded-sm">
-        <props.Logo size={16} />
-      </span>
-      <div>
-        <p className="text-lg font-semibold">{props.title}</p>
-        <p className="text-sm text-muted-foreground">{props.description}</p>
-      </div>
+    <Link href={props.url} passHref>
+      <a
+        target="_blank"
+        rel="noopener noreferrer" // Ajoutez cet attribut pour des raisons de sécurité
+        className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded"
+      >
+        <span className="bg-accent text-accent-foreground p-3 rounded-sm">
+          <props.Logo size={16} />
+        </span>
+        <div>
+          <p className="text-lg font-semibold">{props.title}</p>
+          <p className="text-sm text-muted-foreground">{props.description}</p>
+        </div>
+      </a>
     </Link>
   );
 };
+
+export default SideProject;
